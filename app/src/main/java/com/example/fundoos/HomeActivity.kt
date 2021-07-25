@@ -102,6 +102,7 @@ class HomeActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.create_fragment_container, CreateNewNoteFragment())
                 .setReorderingAllowed(true).addToBackStack(null).commit()
             Toast.makeText(applicationContext, "Creating New Note", Toast.LENGTH_SHORT).show()
+
         }
     }
 
